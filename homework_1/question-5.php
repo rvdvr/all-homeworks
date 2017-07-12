@@ -1,19 +1,15 @@
 <?php
 
-$day = 24;
+$day = 2;
 
-$age = 15;
-
-switch ($age) {
-    case $age>=18 && $age<= 65:
-        echo 'Вам еще работать и работать';
+switch (true) {
+    case $day >= 1 && $day <= 5:
+        echo 'Это рабочий день';
         break;
-    case $age > 65:
-        echo 'Вам пора на пенсию';
-        break;
-    case $age <= 17 && $age >= 1:
-        echo 'Вам еще рано работать';
+    case $day >= 6 && $day <= 7:
+        echo 'Это выходной день';
         break;
     default:
-        echo 'Неизвестный возраст';
+        echo 'Неизвестный день';
         break;
+}
