@@ -7,5 +7,7 @@ if (defined('NAME')) {
 } else {
     echo 'BAD  <br/>';
 }
+
 define('NAME', 'Lobster');
+
 echo NAME;
