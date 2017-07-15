@@ -8,6 +8,6 @@ if (defined('NAME')) {
     echo 'BAD  <br/>';
 }
 
-define('NAME', 'Lobster');
-
 echo NAME;
+
+define('NAME', 'Lobster');
